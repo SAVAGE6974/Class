@@ -1,0 +1,70 @@
+<!-- 세로로 병합; rowspan
+가로로 병합; colspan
+colgroup: 열 그룹화
+col: 열 지정
+caption: 표 제목
+thead: 표 머리글
+tbody: 표 본문
+tfoot: 표 바닥글
+th: 제목 셀
+td: 일반 셀 -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>자리배치 도표</caption>
+        <colgroup>
+            <col>
+            <col style="background-color: aquamarine;">>
+            <col>
+            <col span="2" style="background-color: yellow;">
+        </colgroup>
+            <tr>
+                <td colspan="5">담임: 강진아선생님</td>
+            </tr>
+            <tbody>
+                <tr>
+                    <th rowspan="5">1학년 3반</th>
+                    <td>김민지</td>
+                    <td>민선영</td>
+                    <td>이재원</td>
+                    <td>이지호</td>
+                </tr>
+                <tr>
+                    <td>박승아</td>
+                    <td>전수안</td>
+                    <td>이형석</td>
+                    <td>전승호</td>
+                </tr>
+                <tr>
+                    <td>김민재</td>
+                    <td>김승우</td>
+                    <td>천준범</td>
+                    <td>섹시가이</td>
+                </tr>
+                <tr>    
+                    <td>김우주</td>
+                    <td>박현준</td>
+                    <td>현승민</td>
+                    <td>황경민</td>
+                </tr>
+                <tr>
+                    <td>안재민</td>
+                    <td>오용준</td>
+                    <td colspan="2"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">우리반 화이팅</td>
+                </tr>
+            </tfoot>
+    </table>
+</body>
+</html>

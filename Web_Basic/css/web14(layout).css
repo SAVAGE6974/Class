@@ -1,0 +1,94 @@
+nav > ul{
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px;
+
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
+
+header img {
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#sub_menu {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-image: url(https://blog.kakaocdn.net/dn/cO9fRD/btsqj4CeHcd/AEsPh0WIWfhucLlSEn9Z20/img.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* background-position: top center; */
+    padding: 20px;
+    /* border: 10px dotted black;
+    background-origin: border-box;
+    background-attachment: fixed; */
+    background-size: cover;
+
+    /* background-color: blanchedalmond;
+    background-clip: padding-box;
+    padding: 20px;
+    border: 5px dotted black; */
+}
+
+#sub_menu img{
+    width: 300px;
+    height: 180px;
+    position: fixed;
+    right: 30px;
+    top: 130px;
+    border-radius: 30px;
+}
+
+#sub_menu p {
+    position: absolute;
+    top: 30px;
+    right: 55px;
+    color: red;
+}
+
+main{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: repeating-linear-gradient(to bottom, blue, blue 20px, white 20px, white 40px)
+}
+
+.box{
+    width: 550px;
+    height: 250px;
+    background: radial-gradient(circle at 20% 20%, white, aqua, blue);
+}
+ㅌ
+.box2{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    background: radial-gradient(circle at 20% 20%, white, aqua, blue);
+} 

@@ -1,0 +1,36 @@
+/* solid는 실선, border는 테두리 */
+
+table {
+    /* border: 1px solid skyblue; */
+    border-spacing: 5px 10px;
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+/*
+caption {
+    caption-side: bottom;
+    text-align: left;
+}
+
+th, td {
+    border: 1px double skyblue;
+} */
+
+th {
+    border-bottom: 2px double skyblue;
+    border-top: 1px solid skyblue;
+    border-left:1px solid skyblue;
+    border-right:1px solid skyblue;
+    background-color: aqua;
+}
+
+td {
+    border: 1px solid skyblue;
+    /* border-left: 1px solid skyblue;
+    border-right: 1px solid skyblue;
+    border-top: 1px solid skyblue;
+    border-bottom: 1px solid skyblue; */
+}
