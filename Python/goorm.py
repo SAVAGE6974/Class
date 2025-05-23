@@ -1,5 +1,12 @@
-def average(a, b, c):
-    return f'{(a + b + c) / 3:.2f}'
+def cal(x, y, z):
+    if y == '+':
+        return int(x) + int(z)
+    elif y == '-':
+        return int(x) - int(z)
+    elif y == '*':
+        return int(x) * int(z)
+    elif y == '/':
+        return int(x) / int(z)
 
-first, second, third = map(int, input().split())
-print(f'평균: {average(first, second, third)}')
+a, b, c = input().split()
+print(cal(a, b, c))
