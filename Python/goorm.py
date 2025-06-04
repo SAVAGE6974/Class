@@ -1,4 +1,5 @@
-for i in range(1, 5):
-    for j in range(1, 5):
-        print('* ', end='')
-    print()
+import pyttsx3
+
+engine = pyttsx3.init()
+engine.say("")
+engine.runAndWait()
