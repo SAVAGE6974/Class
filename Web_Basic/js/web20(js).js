@@ -17,7 +17,7 @@ width = 200;
 height = 50;
 let area = width * height;
 
-console.log(area);
+console.log(area); 
 
 const pi = 3.14;
 let radius = prompt("반지름을 입력하세요");
