@@ -36,11 +36,24 @@
 // b = 5;
 // console.log(b);
 
-function multiple(a, b = 5, c = 10) {
-    return a * b + c;
-}
+// function multiple(a, b = 5, c = 10) {
+//     return a * b + c;
+// }
 
-console.log(multiple(5, 10, 20));
-console.log(multiple(10, 20));
-console.log(multiple(30));
+// console.log(multiple(5, 10, 20));
+// console.log(multiple(10, 20));
+// console.log(multiple(30));
 
+// let sum = function(a, b) {
+//     return a + b;
+// }
+
+// console.log(`함수 실행결과 : ${sum(10, 20)}`);
+
+// (function(a, b){
+//     sum = a + b;
+// }(100, 200))
+
+let sum = (a, b) => a + b;
+
+console.log(`함수 실행 괄고 : ${sum(10, 20)}`)

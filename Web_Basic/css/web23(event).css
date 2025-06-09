@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+    width: 500px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    width: 130px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#result {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
