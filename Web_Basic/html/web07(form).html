@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">아이디(6자 이상) <input type="text" value="dgsw" maxlength="20" size="10" autofocus></label> <br>
+        <label for="pw">비밀번호</label><input id="pw" type="password"> <br>
+        <input type="button" value="로그인"><input type="image" src="../images/login.png" alt="로그인"><br>
+        <button type="submit"><img src="../images/login.png" alt="로그인"></button>
+        <br><label for="">검색 <input type="search"></label>
+
+        <fieldset>
+            <!-- name은 같은 그룹임을 알려 radio 중복 선택을 하지 않게함 -->
+            <legend><b>상품 선택</b></legend>
+
+            <h3>주문 상품 선택</h3>
+            <label for=""><input type="checkbox" name="prod" id="" value="p3kg" checked>선물용 3kg
+                <input type="number" min="0" max="10" value="2" step="2">
+                <input type="range" name="" id="" min="0" max="10" value="1" step="2">
+            </label>
+            <br>
+            <label for=""><input type="checkbox" name="prod" id="" value="p5kg">선물용 5kg
+                <input type="number" min="0" max="10" value="2" step="2">
+                <input type="range" name="" id="" min="0" max="10" value="1" step="2">
+            </label>
+            <br>
+            <label for=""><input type="checkbox" name="prod" id="" value="h3kg">가정용 3kg
+                <input type="number" min="0" max="10" value="2" step="2">
+                <input type="range" name="" id="" min="0" max="10" value="1" step="2">
+            </label>
+            <br>
+            <label for=""><input type="checkbox" name="prod" id="" value="h5kg">가정용 5kg
+                <input type="number" min="0" max="10" value="2" step="2">
+                <input type="range" name="" id="" min="0" max="10" value="1" step="2">
+            </label>
+            <br>
+
+            <select name="" id="">
+                <option value="home3">가정용 3kg</option>
+                <option value="home5" selected>가정용 5kg</option>
+                <option value="pre3">선물용 3kg</option>
+                <option value="pre5">선물용 5kg</option>
+            </select>
+
+            <h3>포장 여부</h3>
+            <label for=""><input type="radio" name="present" id="" value="y">선물포장</label>
+            <label for=""><input type="radio" name="present" id="" value="n">선물포장 안함</label>
+        </fieldset>
+        <fieldset>
+            <legend><b>배송정보</b></legend>
+            <label for="">이메일: <input type="email" readonly value="응 적어봐 ㅋ"></label><br>
+            <label for="">전화번호: <input type="tel" required placeholder="-없이 입력해주세요."></label><br>
+            <label for="">홈페이지 주소: <input type="url" value="https://"></label><br>  
+
+            <label for="">배송일: <input type="week" name="" id=""></label>
+            <label for="">배송시간: <input type="datetime-local" name="" id=""></label>
+        </fieldset>
+        <input type="submit">
+        <input type="reset"><br>
+        <button type="submit">완료</button>
+        <button type="reset">재작성</button>
+        <button type="button">문의사항</button>
+        <input type="file"><br>
+        <textarea name="" id="" cols="100" rows="5"></textarea>
+    </form>
+
+    
+</body>
+</html>

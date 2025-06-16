@@ -1,0 +1,35 @@
+.container {
+    width: 700px;
+    height: 200px;  
+    background-color: #eee;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-flow: wrap;
+    /* align-content: space-around; */
+    /* justify-content: flex-end; */
+    /* align-items: stretch; */
+    gap: 20px;
+}
+
+/* #box1 {
+    margin-left: auto;
+    padding: 20px;
+    align-self: flex-start
+}
+
+#box2 {
+    align-self: flex-end;
+}
+
+#box3 {
+    align-self: center;
+} */
+
+.box {
+    padding: 5px 45px;
+    margin: 5px;
+    width: 80px;
+    background-color: palevioletred;
+}
